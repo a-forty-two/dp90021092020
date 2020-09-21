@@ -1,0 +1,56 @@
+
+EL: Your data is ready for analysis!
+
+ELT: Extract-load into cloud-keep transforming!!!
+
+ETL: Extract-Transform-Load
+
+SMALL Data-> OLTP (Source of data)-> backend for web
+Big Data-> OLAP (target of data)-> Viz, Dashboards
+
+Big Data: Volume, Velocity, Variety 
+
+BLOB-> binary large object
+
+DataLake: enterprise analytical
+Blob Storage: massive cheap storage
+	(temp sotrage- not optimized
+	for analytics)
+
+
+Heirarchial namespaces:
+	POINTER MANIPULATION for folder structure
+	Helps access data faster and neatly arranged
+User Principals: username password
+Service Principals: certificates, SAS, keys 
+
+
+SHARED ACCESS SIGNATURE: time bound, permission bound
+	-> IP bound (optional)
+	-> Anonymous 
+
+RBAC-> Azure Active Directory
+
+https://www.microsoft.com/videoplayer/embed/RE4zTud
+https://www.microsoft.com/videoplayer/embed/RE4AwNK
+
+
+Labs: 10mins
+
+AI, Data Sciences, Data Engineers 
+- IaaS or PaaS 
+
+IaaS-> manage this infra for you and you have control on configuration
+PaaS-> Azure does everything-> you manage performance and cost 
+
+SCALABILITY is why to USE CLOUD! 
+Favs automation: Python, Go, Scala, C#, Java... 
+Pipelines: Apache Beam-> Py/Java 
+Flow-> DataFlow, Tensorflow-> Directed Acylic Graph!
+
+
+
+
+
+
+
