@@ -1,4 +1,13 @@
 
+
+Hello World!
+We'll get started shortly once audience arrives!
+(latest by IST 6:40 PM or PST 6:10 AM)
+- Relational
+- Warehouse
+
+
+
 EL: Your data is ready for analysis!
 
 ELT: Extract-load into cloud-keep transforming!!!
@@ -11,8 +20,10 @@ Big Data-> OLAP (target of data)-> Viz, Dashboards
 Big Data: Volume, Velocity, Variety 
 
 BLOB-> binary large object
+	-> File, images, videos, audio, csv
+	-> Block (everything), Page (disk images), Append (small)
 
-DataLake: enterprise analytical
+DataLake: enterprise analytical storage
 Blob Storage: massive cheap storage
 	(temp sotrage- not optimized
 	for analytics)
@@ -33,6 +44,9 @@ RBAC-> Azure Active Directory
 
 https://www.microsoft.com/videoplayer/embed/RE4zTud
 https://www.microsoft.com/videoplayer/embed/RE4AwNK
+https://www.microsoft.com/videoplayer/embed/RE4Asf7
+https://docs.microsoft.com/en-us/learn/certifications/
+https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html
 
 
 Labs: 10mins
@@ -48,9 +62,39 @@ Favs automation: Python, Go, Scala, C#, Java...
 Pipelines: Apache Beam-> Py/Java 
 Flow-> DataFlow, Tensorflow-> Directed Acylic Graph!
 
+-> CosmosDB:
+	- Highly available and GEO-dist data 
+	- bills you PER collection/database 
+	- every table/collection's performance is separate
+	- ALWAYS on 
+	- Consistency levels: balance b/w availability and 
+		performance -> performance + availability = 1
+	- 2 backups every 4 hours!
+	- accidentally deleted tables/collc. can be retrvd. 
+		upto 8 hours!!!
+	
+Managed Services- VM but managed by Azure!!! 
+	- Failovers-> Automatic! 
+
+TLS-> Transport Layer Security 
 
 
+Serverless- no infra! no VM!
+AI100, DP200, DP201, Dp100
+Security:
+	- data at rest: TDE
+	- data in motion/transit: TLS (min. version) 
+	- Firewall: Server Firewall, Database Firewall 
 
+total isolation from internet-> Virtual machines in an isolated n/w
 
+HDInsight-> Spark, Hadoop, Kafka, Storm, ML with R, Interactive Query (HIVE on Hadoop), Hbase (no-sql dw)
+Customer managed Key- encryption will be done by YOUR
+	key rather than Az! Fin, Sec, Govt...
 
+Microsoft Managed key- general purpose 
+
+KeyVault: service to distribute secrets, certificates
+	- NO PASSWORDS! 
+	- Hardware security modules can be used
 
